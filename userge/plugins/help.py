@@ -66,13 +66,12 @@ REPO_X = InlineQueryResultArticle(
         [
             [
                 InlineKeyboardButton(
-                    "🔥 USERGE-X Repo", url="https://github.com/code-rgb/USERGE-X"
+                    "🔥 me", url="https://t.me/CAT_Bot_01"
                 ),
                 InlineKeyboardButton(
-                    "🚀 Deploy USERGE-X",
+                    "🚀 my channel",
                     url=(
-                        "https://heroku.com/deploy?template="
-                        "https://github.com/code-pms/MyGpack"
+                        "t.me/mirai_anime"
                     ),
                 ),
             ]
@@ -1139,9 +1138,9 @@ if userge.has_bot:
 
             MAIN_MENU = InlineQueryResultArticle(
                 title="Main Menu",
-                input_message_content=InputTextMessageContent(" 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 "),
-                url="https://github.com/code-rgb/USERGE-X",
-                description="Userge-X Main Menu",
+                input_message_content=InputTextMessageContent(" Gray user  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 "),
+                url="https://t.me/CAT_Bot_01",
+                description="Gray user Main Menu",
                 thumb_url="https://i.imgur.com/1xsOo9o.png",
                 reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
             )
